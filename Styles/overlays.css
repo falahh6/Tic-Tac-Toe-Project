@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+#select-name-box {
+    position: fixed;
+    width: 90%;
+    top: 30%;
+    left: 5%;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+@media (min-width: 48rem) {
+    #select-name-box {
+        left: calc(50% - 20rem);
+        width: 40rem;
+    }
+}
+
+
+#results {
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: FAF7F0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 2rem;
+    display: none;
+}
+
+#results h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-family: 'Alkalami', serif;
+    color: #98A8F8;
+}
+
+#results p {
+    color: #92b3ff;
+}
