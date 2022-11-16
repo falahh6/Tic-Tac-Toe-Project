@@ -5,6 +5,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     /* color: AAC4FF; */
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
