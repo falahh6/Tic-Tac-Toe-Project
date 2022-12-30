@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/res/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/Styles/Style.css">
     <link rel="stylesheet" href="Styles/overlays.css">
     <script src="/scripts/config.js" defer></script>
@@ -16,7 +17,7 @@
     <div id="backdrop"></div>
     <header class="main-heading">
         <h1>Play Tic-Tac-Toe</h1>
-        <p>Built with HTML, CSS and JavaScript by <strong>Falah</strong> </p>
+        <p> by <strong>Falah x Kaif</strong> </p>
     </header>
     <main>
         <aside id="select-name-box">
@@ -35,20 +36,22 @@
         </aside>
         <section class="game-configuration">
             <ol>
-                <li>
+                <li id="add-border-right">
                     <article id="Player-1-data" class="playerss">
                         <h2>Player 1</h2>
                         <h3>Player Name</h3>
-                        <p>X</p>
+                        <p class="symbols">X</p>
                         <button class="edit-button" id="player-1-name" data-playerId="1">Edit</button>
+                        <p>Score : <span id="player-1-score">0</span></p>
                     </article>
                 </li>
                 <li>
                     <article id="Player-2-data" class="playerss">
                         <h2>Player 2</h2>
                         <h3>Player Name</h3>
-                        <p>O</p>
+                        <p class="symbols">O</p>
                         <button class="edit-button" id="player-2-name" data-playerId="2">Edit</button>
+                        <p>Score : <span id="player-2-score">0</span></p>
                     </article>
                 </li>
             </ol>

@@ -124,7 +124,11 @@ function endGame(winnerId) {
     if (winnerId > 0) {
         const winnerName = Players[winnerId - 1].name;
         gameOverElement.firstElementChild.firstElementChild.textContent = 'You won, ' + winnerName;
+        let scoreElement = document.getElementById(`player-${winnerId}-score`);
+        scoreElement.textContent = parseInt(scoreElement.textContent) + 1;
     } else {
         gameOverElement.firstElementChild.textContent = 'It\'s a draw!';
+        scoreElement.textContent = parseInt(scoreElement.textContent) + 0;
     }
+
 }

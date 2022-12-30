@@ -56,7 +56,7 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 0 10px;
 }
 
 #input-name label {
@@ -74,7 +74,7 @@ aside {
 
 .playerss {
     border: 2px solid transparent;
-    padding: 18px;
+    padding: 30px;
     border-radius: 8px;
     background-color: #EEF1FF;
 }
@@ -222,4 +222,21 @@ article h2 {
 article h3 {
     color: #677d8e;
     font-family: 'Roboto Mono', monospace;
+}
+
+.symbols {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 450px) {
+
+    .playerss {
+        font-size: 12px;
+    }
+
+    #input-name input {
+        width: 80%;
+    }
+
 }
