@@ -5,6 +5,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     /* color: AAC4FF; */
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -223,6 +224,7 @@ article h3 {
     color: #677d8e;
     font-family: 'Roboto Mono', monospace;
 }
+<<<<<<< HEAD
 
 .symbols {
     margin-top: 0;
@@ -240,3 +242,5 @@ article h3 {
     }
 
 }
+=======
+>>>>>>> 68ed919dab1eac38cabc7fe6403021b9fd535357
